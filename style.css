@@ -1,0 +1,78 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  }
+.intro {
+    background: url('../images/home.jpg') no-repeat center top;
+    background-size: cover;
+    color: white;
+}
+header {
+  padding: 0px 0;
+}
+header nav {
+    margin-top: 1px;
+    background-color: rgba(1, 0, 0, 0.3);
+    width: 100%;
+    position: fixed;
+    /* padding: 0px 0; ->> no se necesitó padding /*
+    /*
+    height: 40px; ->> no queda centrado verticalmente
+    */
+  }
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 25px;
+  /* float: right; ->> estaba poniendo probelmas*/
+}
+nav img {
+  width: 30px;
+  height: 30px;
+  margin: 10px 0 0 200px;
+  border-radius: 100%;
+}
+nav ul {
+  display: inline;
+  float: right;
+}
+nav ul li {
+  display: inline;
+  display: left;
+}
+/*.encabezado {
+  width: 992px;
+  margin-left:auto;
+  margin-right: auto;
+} ->> al fin no necesitaba esta clase */
+.seccion1 {
+  /*
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  */
+  text-align: center;
+  padding: 200px 0 200px;
+}
+.seccion1 h1 {
+  background-color: rgba(1, 0, 0, 0.5);
+  font-size: 60px;
+  font-style: normal;
+}
+.seccion2 {
+  text-align: center;
+  background: rgba(150, 0, 0, 0.5);
+}
+.seccion2 table {
+  /* align: center; ->> como que no se necesita */
+  margin-right: auto;
+  margin-left: auto;
+}
+table td {
+  padding: 50px;
+}
+#contacto {
+  text-align: center;
+  padding: 25px 0 50px 0;
+  background: rgba(80, 80, 80, 0.5)
+}
